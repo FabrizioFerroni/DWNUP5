@@ -55,14 +55,12 @@ function giveCandyArrays(arrayType, index) {
 	var candyCol7 = $('.col-7').children();
 
 	var candyColumns = $([candyCol1, candyCol2, candyCol3, candyCol4,
-		candyCol5, candyCol6, candyCol7
-	]);
+		candyCol5, candyCol6, candyCol7]);
 
 	if (typeof index === 'number') {
 		var candyRow = $([candyCol1.eq(index), candyCol2.eq(index), candyCol3.eq(index),
 			candyCol4.eq(index), candyCol5.eq(index), candyCol6.eq(index),
-			candyCol7.eq(index)
-		]);
+			candyCol7.eq(index)]);
 	} else {
 		index = '';
 	}
